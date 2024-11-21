@@ -8,8 +8,9 @@ public class Main {
         //Incializar en 0
         double altura = 0;
         double vo = 0;
+        
 
-        // Solicitar y validar la altura
+        // Solicitar y validar la alturan
 
         boolean alturaValida = false;
         while (!alturaValida) {

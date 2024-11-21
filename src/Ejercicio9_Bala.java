@@ -10,7 +10,6 @@ public class Ejercicio9_Bala {
         this.altura = altura;
         this.vo = vo;
     }
-
     // Usamos setters
     public void setAltura(double altura) {
         this.altura = altura;
@@ -25,6 +24,9 @@ public class Ejercicio9_Bala {
         // Fórmula: yf = y0 + v0y * t + (1/2) * ay * t^2
         // Despejamos t^2: t^2 = (2 * altura) / gravedad
         return Math.sqrt((2 * this.altura) / gravedad);
+    }
+    public double TiempoBala() {
+        return vo * gravedad;
     }
 }
 
